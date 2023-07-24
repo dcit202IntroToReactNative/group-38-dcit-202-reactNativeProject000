@@ -10,7 +10,7 @@ const FormInput = () => {
 
   const { addTransactions } = useContext(GlobalContext);
 
-  const onSubmit = () => {
+  const onSubmitHandler = () => {
     let checkAmount = String(amount);
 
     if (text.length === 0 || amount === 0 || typeof amount !== "number") {
@@ -91,13 +91,13 @@ const FormInput = () => {
         }
       />
       <View style={{ flexDirection: "row", alignSelf: "center" }}>
-      <Button
+        <Button
           buttonStyle={{
             backgroundColor: "#eb4d4b",
             marginTop: 10,
             width: 150,
             marginRight: 5,
-            borderRadius:30
+            borderRadius: 30
           }}
           title="- CASH OUT"
           onPress={() => onWithdraw()}
@@ -108,12 +108,12 @@ const FormInput = () => {
             marginTop: 10,
             width: 150,
             marginLeft: 5,
-            borderRadius:30
+            borderRadius: 30
           }}
           title="+ CASH IN"
-          onPress={() => onSubmit()}
+          onPress={() => onSubmitHandler()}
         />
-        
+
       </View>
     </View>
   );
