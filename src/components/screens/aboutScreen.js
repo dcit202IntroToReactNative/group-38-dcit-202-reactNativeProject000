@@ -23,11 +23,11 @@ const AboutScreen = ({ navigation }) => {
         <Button
           icon={<Icon name="code" color="#ffffff" />}
           buttonStyle={{
-            borderRadius: 4,
+            borderRadius: 10,
             marginTop: 8,
             width: 220,
             alignSelf: "center",
-            backgroundColor: "#2083F8",
+            backgroundColor: "#2073F8",
           }}
           style={{ paddingRight: 25 }}
           title="Thank You"
