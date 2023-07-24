@@ -7,7 +7,7 @@ import { GlobalProvider } from "./src/context/GlobalState";
 const App = () => {
 // Returns a React component that is the root of the application.
   return (
-// A container that ensures content is displayed within safe boundaries on the device.
+// A container that ensures the content is displayed within specified safe boundaries on the device.
     <SafeAreaView style={styles.container}>
       <GlobalProvider>
 // Renders the navigation bar.
