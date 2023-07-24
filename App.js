@@ -5,6 +5,7 @@ import { NavigationBar } from "./src";
 import { GlobalProvider } from "./src/context/GlobalState";
 // SafeAreaView is use aparent view that wraps around other views. it is used to to apply a flexbox layout style to the view.
 const App = () => {
+// Returns a React component that is the root of the application.
   return (
 // A container that ensures content is displayed within safe boundaries on the device.
     <SafeAreaView style={styles.container}>
