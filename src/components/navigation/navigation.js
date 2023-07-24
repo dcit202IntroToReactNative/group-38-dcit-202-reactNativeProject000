@@ -56,7 +56,6 @@ const NavigationBar = () => {
             name="About"
             component={AboutScreen}
           />
-         // Creates a Drawer.Screen for the About screen.
         </Drawer.Navigator>
       </NavigationContainer>
     </>
