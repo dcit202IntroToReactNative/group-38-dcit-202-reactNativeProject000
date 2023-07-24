@@ -6,7 +6,7 @@ import HomeScreen from "../screens/homeScreen";
 import AboutScreen from "../screens/aboutScreen";
 import TransactionScreen from "../screens/transactionScreen";
 import TransHistoryScreen from "../screens/transHistoryScreen";
-
+// Drawer
 const Drawer = createDrawerNavigator();
 // navigation
 const NavigationBar = () => {
