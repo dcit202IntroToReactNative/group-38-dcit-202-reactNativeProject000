@@ -10,6 +10,7 @@ import TransHistoryScreen from "../screens/transHistoryScreen";
 const Drawer = createDrawerNavigator();
 
 const NavigationBar = () => {
+  // This function returns a React component that is the root of the application.
   return (
     <>
       <NavigationContainer>
@@ -24,6 +25,7 @@ const NavigationBar = () => {
             name="Home"
             component={HomeScreen}
           />
+          // Creates a Drawer.Screen for the About screen.
           <Drawer.Screen
             options={{
               headerTintColor: "#fff",
@@ -54,6 +56,7 @@ const NavigationBar = () => {
             name="About"
             component={AboutScreen}
           />
+         // Creates a Drawer.Screen for the About screen.
         </Drawer.Navigator>
       </NavigationContainer>
     </>
