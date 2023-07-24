@@ -3,6 +3,7 @@ import { View, Text, Linking } from "react-native";
 import { Card, Button, Icon } from "react-native-elements";
 
 const AboutScreen = ({ navigation }) => {
+  // This function returns a React component that is the root of the About screen.
   return (
     <View
       style={{
@@ -39,5 +40,5 @@ const AboutScreen = ({ navigation }) => {
     </View>
   );
 };
-
+// This export keyword makes the AboutScreen component available to other components.
 export default AboutScreen;
