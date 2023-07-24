@@ -14,7 +14,7 @@ const App = () => {
     </SafeAreaView>
   );
 };
-
+// style
 const styles = StyleSheet.create({
   container: {
     display: "flex",
