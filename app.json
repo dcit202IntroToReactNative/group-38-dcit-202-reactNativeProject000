@@ -1,6 +1,7 @@
 
 {
   "expo": {
+    // The name of the Expo project
     "name": "expense-tracker",
     "slug": "expense-tracker",
     "version": "1.0.0",
@@ -24,6 +25,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/appIcon.png",
+        // The background color of the adaptive icon
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.mhsaeed.expensetracker"
