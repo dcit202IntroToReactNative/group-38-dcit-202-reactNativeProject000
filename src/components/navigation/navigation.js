@@ -8,7 +8,7 @@ import TransactionScreen from "../screens/transactionScreen";
 import TransHistoryScreen from "../screens/transHistoryScreen";
 
 const Drawer = createDrawerNavigator();
-
+// navigation
 const NavigationBar = () => {
   return (
     <>
