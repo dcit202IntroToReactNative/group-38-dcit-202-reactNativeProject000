@@ -15,7 +15,7 @@ const App = () => {
   );
 };
 //text{
-//flex:1
+//flex:4
 // color:blue
 //}
 const styles = StyleSheet.create({
