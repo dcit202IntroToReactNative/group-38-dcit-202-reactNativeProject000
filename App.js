@@ -14,7 +14,10 @@ const App = () => {
     </SafeAreaView>
   );
 };
-
+//text{
+//flex:1
+// color:blur
+//}
 const styles = StyleSheet.create({
   container: {
     display: "flex",
