@@ -68,7 +68,7 @@ const FormInput = () => {
         leftIcon={
           <Icon
             name="text"
-            
+            type="entypo"
             size={18}
             color="#9980FA"
           />
