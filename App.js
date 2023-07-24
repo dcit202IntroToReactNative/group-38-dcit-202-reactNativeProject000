@@ -16,7 +16,7 @@ const App = () => {
 };
 //text{
 //flex:1
-// color:blur
+// color:blue
 //}
 const styles = StyleSheet.create({
   container: {
