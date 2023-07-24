@@ -14,7 +14,7 @@ const App = () => {
     </SafeAreaView>
   );
 };
-
+//nouo
 const styles = StyleSheet.create({
   container: {
     display: "flex",
