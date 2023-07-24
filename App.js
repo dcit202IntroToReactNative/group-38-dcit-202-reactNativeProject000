@@ -3,7 +3,7 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Platform, SafeAreaView } from "react-native";
 import { NavigationBar } from "./src";
 import { GlobalProvider } from "./src/context/GlobalState";
-// app
+
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
