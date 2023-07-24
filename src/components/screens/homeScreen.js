@@ -8,6 +8,7 @@ import { createMaterialTopTabNavigator } from "@react-navigation/material-top-ta
 const Tab = createMaterialTopTabNavigator();
 
 const HomeScreen = ({ navigation }) => {
+  // This function returns a React component that is the root of the Home screen.
   return (
     <View style={styles.container}>
       <Tab.Navigator>
@@ -19,6 +20,7 @@ const HomeScreen = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
+  // This style defines the container for the Home screen.
   container: {
     flex: 1,
   },
