@@ -3,7 +3,7 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Platform, SafeAreaView } from "react-native";
 import { NavigationBar } from "./src";
 import { GlobalProvider } from "./src/context/GlobalState";
-// SafeAreaView is used as aparent view that wraps around other views. it is used to to apply a flexbox layout style to the view.
+// SafeAreaView is useaparent view that wraps around other views. it is used to to apply a flexbox layout style to the view.
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
