@@ -43,14 +43,14 @@ const styles = StyleSheet.create({
     width: 310,
   },
   statusCard: {
-    alignItems: "left",
+    alignItems: "center",
     justifyContent: "center",
     height: 150,
     width: 300,
     // backgroundColor:"red"
   },
   form: {
-    width: 320,
+    width: 310,
     top: 5,
     height: 250,
   },
