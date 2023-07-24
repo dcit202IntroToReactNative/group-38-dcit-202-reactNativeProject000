@@ -17,17 +17,17 @@ const AboutScreen = ({ navigation }) => {
         <Card.Divider />
 
         <Text style={{ marginBottom: 10, width: 280, alignSelf: "center" }}>
-          This is an ExpicMinder Expense tracker app that help you to keep track of 
-          your epenses 
+          EpicMinder, an Expense tracking application would help you to keep track of 
+          your expenses 
         </Text>
         <Button
           icon={<Icon name="code" color="#ffffff" />}
           buttonStyle={{
-            borderRadius: 10,
+            borderRadius: 4,
             marginTop: 8,
             width: 220,
             alignSelf: "center",
-            backgroundColor: "#2073F8",
+            backgroundColor: "#2083F8",
           }}
           style={{ paddingRight: 25 }}
           title="Thank You"
