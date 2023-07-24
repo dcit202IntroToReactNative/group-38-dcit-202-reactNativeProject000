@@ -9,8 +9,10 @@ const App = () => {
 // A container that ensures content is displayed within safe boundaries on the device.
     <SafeAreaView style={styles.container}>
       <GlobalProvider>
+// Renders the navigation bar.
         <NavigationBar />
       </GlobalProvider>
+// Renders the status bar.
       <StatusBar style="light" />
     </SafeAreaView>
   );
